@@ -41,7 +41,7 @@
     "public": false
   },
   "Record": {
-    "dataSource": "db",
+    "dataSource": "MongoDB",
     "public": true
   },
   "RecordProperties": {
