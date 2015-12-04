@@ -51,5 +51,13 @@
   "RecordProperties": {
     "dataSource": null,
     "public": false
+  },
+  "Survey": {
+    "dataSource": "MongoDB",
+    "public": true
+  },
+  "SurveyField": {
+    "dataSource": null,
+    "public": false
   }
 }

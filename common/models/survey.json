@@ -1,0 +1,28 @@
+{
+  "name": "Survey",
+  "plural": "survey",
+  "base": "PersistedModel",
+  "strict": true,
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "layout": {
+      "type": "array",
+      "required": false
+    },
+    "fields": {
+      "type": ["SurveyField"],
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
