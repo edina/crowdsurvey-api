@@ -1,22 +1,22 @@
 {
-  "name": "RecordProperties",
-  "base": "Model",
+  "name": "RecordField",
+  "base": "PersistedModel",
   "idInjection": false,
+  "strict": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "id": null,
-    "editor": {
+    "id": {
       "type": "string",
       "required": true
     },
-    "fields": {
-      "type": ["RecordField"],
+    "label": {
+      "type": "string",
       "required": true
     },
-    "timestamp": {
-      "type": "string",
+    "val": {
+      "type": "object",
       "required": true
     }
   },

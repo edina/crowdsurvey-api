@@ -3,6 +3,7 @@
   "plural": "records",
   "base": "GeoJSONFeature",
   "idInjection": true,
+  "strict": true,
   "options": {
     "validateUpsert": true
   },
