@@ -1,0 +1,19 @@
+{
+  "name": "SurveyTextAreaField",
+  "base": "SurveyField",
+  "strict": true,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "placeholder": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

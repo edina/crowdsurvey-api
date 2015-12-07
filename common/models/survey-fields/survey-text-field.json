@@ -1,0 +1,23 @@
+{
+  "name": "SurveyTextField",
+  "base": "SurveyField",
+  "strict": true,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "placeholder": {
+      "type": "string",
+      "required": true
+    },
+    "maxLength": {
+      "type": "number",
+      "default": 10
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

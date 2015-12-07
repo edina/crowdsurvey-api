@@ -1,0 +1,14 @@
+{
+  "name": "SurveyAudioField",
+  "base": "SurveyField",
+  "strict": true,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

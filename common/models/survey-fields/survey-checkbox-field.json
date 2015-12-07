@@ -1,0 +1,19 @@
+{
+  "name": "SurveyCheckboxField",
+  "base": "SurveyField",
+  "strict": true,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "options": {
+      "type": "array",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

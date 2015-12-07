@@ -3,6 +3,7 @@
     "sources": [
       "loopback/common/models",
       "loopback/server/models",
+      "../common/models/survey-fields",
       "../common/models",
       "./models"
     ],
@@ -57,6 +58,38 @@
     "public": true
   },
   "SurveyField": {
+    "dataSource": null,
+    "public": false
+  },
+  "SurveyAudioField": {
+    "dataSource": null,
+    "public": false
+  },
+  "SurveyCheckboxField": {
+    "dataSource": null,
+    "public": false
+  },
+  "SurveyImageField": {
+    "dataSource": null,
+    "public": false
+  },
+  "SurveyRadioField": {
+    "dataSource": null,
+    "public": false
+  },
+  "SurveyRangeField": {
+    "dataSource": null,
+    "public": false
+  },
+  "SurveySelectField": {
+    "dataSource": null,
+    "public": false
+  },
+  "SurveyTextField": {
+    "dataSource": null,
+    "public": false
+  },
+  "SurveyTextAreaField": {
     "dataSource": null,
     "public": false
   }

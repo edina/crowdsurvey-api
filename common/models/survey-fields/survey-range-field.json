@@ -1,0 +1,27 @@
+{
+  "name": "SurveyRangeField",
+  "base": "SurveyField",
+  "strict": true,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "step": {
+      "type": "number",
+      "default": 1
+    },
+    "minValue": {
+      "type": "number",
+      "default": 1
+    },
+    "maxValue": {
+      "type": "number",
+      "default": 10
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
