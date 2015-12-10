@@ -1,28 +1,33 @@
-PCAPI LoopBack
-==============
+Crowd Survey API
+================
 
-This is a implementation of the FieldtripGB backend using [LoopBack](https://strongloop.com/node-js/loopback-framework/)
+Crowd Survey Backend using [LoopBack](https://strongloop.com/node-js/loopback-framework/)
 
 Install
 -------
 
 ### Requirements
+
+#### Main dependencies
 - nodeJS
 - npm
+- mongodb
 
 
-Clone the repository:
+##### CentOS
+```
+yum install mongodb-server.x86_64
+yum install mongodb.x86_64
+yum install nodejs-npm-registry-client.noarch
+yum install npm.noarch
+```
+
+
+### Installing from source
 
 ```
-git clone https://github.com/edina/pcapi-loopback
-```
-
-
-
-Install node dependencies:
-
-```
-cd pcapi-loopback
+git clone https://github.com/edina/crowdsurvey-api
+cd crowdsurvey-api
 npm install
 ```
 
@@ -36,10 +41,11 @@ npm install -g strongloop
 ```
 
 
+
 Run
 ---
 
 ```
-cd pcapi-loopback
+cd crowdsurvey-api
 node .
 ```
