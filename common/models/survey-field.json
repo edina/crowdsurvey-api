@@ -7,7 +7,10 @@
     "validateUpsert": true
   },
   "properties": {
-    "id": null,
+    "id": {
+      "type": "string",
+      "required": true
+    },
     "label": {
       "type": "string",
       "required": true
