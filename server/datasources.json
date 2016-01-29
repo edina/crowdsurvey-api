@@ -10,5 +10,12 @@
     "debug": true,
     "host": "127.0.0.1",
     "port": 27017
+  },
+  "gridfs": {
+    "name": "gridfs",
+    "connector": "loopback-component-storage-mongo",
+    "host": "localhost",
+    "port": 27017,
+    "database": "testAssets"
   }
 }

@@ -92,5 +92,13 @@
   "SurveyTextAreaField": {
     "dataSource": null,
     "public": false
+  },
+  "Asset": {
+    "dataSource": "MongoDB",
+    "public": true
+  },
+  "FileStore": {
+      "dataSource": "gridfs",
+      "public": false
   }
 }

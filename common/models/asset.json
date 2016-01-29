@@ -1,0 +1,36 @@
+{
+  "name": "Asset",
+  "plural": "assets",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "filename": {
+      "type": "string",
+       "required": true
+    },
+    "mimetype": {
+      "type": "string",
+       "required": true
+    },
+    "length": {
+      "type": "string",
+      "required": true
+    },
+    "internalId": {
+      "type": "string",
+      "required": true
+    },
+    "container": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "hidden": ["internalId", "container"],
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
