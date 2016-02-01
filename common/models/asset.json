@@ -16,7 +16,7 @@
        "required": true
     },
     "length": {
-      "type": "string",
+      "type": "number",
       "required": true
     },
     "internalId": {
